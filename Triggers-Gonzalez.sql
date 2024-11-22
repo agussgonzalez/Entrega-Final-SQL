@@ -37,3 +37,17 @@ BEGIN
     END IF;
 END //
 DELIMITER ;
+
+
+DELIMITER //
+
+CREATE TRIGGER AplicarDescuentoVenta
+BEFORE INSERT ON Venta
+FOR EACH ROW
+BEGIN
+    IF NEW.Total > 1000 THEN
+        SET NEW.Total = NEW.Total * 0.9; -- 10% de descuento
+    END IF;
+END //
+
+DELIMITER ;

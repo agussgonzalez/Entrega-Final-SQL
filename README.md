@@ -50,6 +50,18 @@ El proyecto incluye scripts SQL que facilitan la creación y el mantenimiento de
 -Herramientas de Desarrollo: SQL Server Management Studio (SSMS), MySQL Workbench y Visual Studio Code.
 -Sistema Operativo: windows 11.
 
+
+### Nuevas Funciones
+- **PromedioVentasProducto:** Calcula el promedio de ventas de un producto en un rango de fechas.
+- **RegistrarCompra:** Procedimiento que permite registrar una compra con sus detalles desde un JSON.
+
+### Nuevas Vistas
+- **VistaVentasDetalle:** Muestra un desglose completo de las ventas, incluyendo cliente, empleado y detalles de productos.
+
+### Nuevos Triggers
+- **AplicarDescuentoVenta:** Aplica un descuento automático a las ventas mayores a $1000.
+
+
 ## Conclusión
 La implementación de esta base de datos y las herramientas asociadas mejorará significativamente la eficiencia del manejo de inventarios y la gestión de ventas en la tienda del Club Deportivo Midland, permitiendo una toma de decisiones más informada y precisa.
 
